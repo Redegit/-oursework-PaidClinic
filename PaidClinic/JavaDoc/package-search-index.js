@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.clinic"},{"l":"org.clinic.api"},{"l":"org.clinic.entity"},{"l":"org.clinic.repository"},{"l":"org.clinic.security"},{"l":"org.clinic.security.auth"},{"l":"org.clinic.security.user"}];updateSearchResults();
