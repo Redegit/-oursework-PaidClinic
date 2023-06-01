@@ -1,0 +1,64 @@
+.container {
+    width: 90%;
+    padding: 65px 5% 5% 5%;
+    background-color: white;
+    position: relative;
+
+    & .big_title {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+        color: var(--main-color);
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    & .title {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+.shadow {
+    box-shadow: 3px 2px 4px rgb(24 56 96 / 15%);
+}
+
+.shadow2 {
+    box-shadow: 0px 0px 7px 1px rgb(24 56 96 / 15%);
+}
+
+.bg {
+    background-color: var(--background-color);
+}
+
+.button {
+    min-width: 150px;
+    background-color: var(--main-color);
+    padding: 12px 0;
+    border-radius: 10px;
+    color: rgb(252, 252, 252);
+    line-height: normal;
+    transition: background-color .3s;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--additional-color);
+}
+
+.green {
+
+    background-color: var(--green);
+}
+
+.green:hover {
+    background-color: rgb(9, 196, 9);
+}

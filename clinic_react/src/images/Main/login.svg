@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 317 317">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 22px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-width: 18px;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <rect class="cls-1" x=".5" y=".5" width="316" height="316"/>
+    <g>
+      <path class="cls-3" d="m84.5,125.24v-55.34c0-15.68,12.71-28.4,28.4-28.4h110.21c15.68,0,28.4,12.71,28.4,28.4v178.21c0,15.68-12.71,28.4-28.4,28.4h-110.21c-15.68,0-28.4-12.71-28.4-28.4v-56.71"/>
+      <g>
+        <polyline class="cls-2" points="44.5 158.5 204.15 158.5 131.65 110"/>
+        <polyline class="cls-2" points="44.5 158.5 204.15 158.5 131.65 207"/>
+      </g>
+    </g>
+  </g>
+</svg>

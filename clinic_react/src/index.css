@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-color: #0082d9;
+  --additional-color: #2894dc;
+  --light-blue: #00c7ff;
+  --orange: #FFA500;
+  --orange-dark: #FF8C00;
+  --background-color: aliceblue;
+  --green: #00a63d;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff00;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(135deg, #0082d9 0%, #2894dc 50%, #00c7ff 100%);
+  background-clip: content-box;
+  border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border: 3px solid #2894dc20;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+  border-radius: 100px;
+}
+
+#root {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}

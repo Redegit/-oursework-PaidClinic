@@ -1,0 +1,35 @@
+.contacts_container {
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 30px;
+
+    & .left {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+
+
+        & .fa_photo {
+            background-image: url("../../images/finashka.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            flex-grow: 1;
+            border-radius: 10px;
+        }
+    }
+
+    & .right {
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: rgb(232, 232, 232);
+    }
+}

@@ -1,0 +1,64 @@
+.message {
+    position: fixed;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: moveUp 0.5s forwards;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 0;
+    z-index: 1000;
+
+    &.err {
+        outline: 3px solid red;
+        color: red;
+    }
+
+    &.ok {
+        outline: 3px solid var(--green);
+        color: var(--green);
+    }
+
+    &.custom {
+        outline: 3px solid var(--orange-dark);
+        color: var(--orange-dark);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        bottom: -50px;
+    }
+
+    60% {
+        bottom: 60px;
+    }
+
+    100% {
+        bottom: 30px;
+    }
+}
+
+@keyframes moveDown {
+    0% {
+        bottom: 30px;
+    }
+
+    60% {
+        bottom: 60px;
+    }
+
+    100% {
+        bottom: -100px;
+    }
+}
+
+.message.invisible {
+    animation: moveDown 0.5s forwards;
+}

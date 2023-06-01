@@ -1,0 +1,39 @@
+footer {
+    width: 90%;
+    padding: 40px 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px solid #E8ECED;
+
+    & .logo_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+
+
+        & .logo {
+            height: 30px;
+        }
+
+        & .name {
+            height: 30px;
+        }
+    }
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 750px) {
+    footer {
+        justify-content: flex-end;
+    }    
+}

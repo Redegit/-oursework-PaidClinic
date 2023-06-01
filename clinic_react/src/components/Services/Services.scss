@@ -1,0 +1,28 @@
+.services_container {
+    background-color: var(--background-color);
+
+    & .big_title {
+
+    }
+
+    & .specialization_grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+
+        & .specialization_item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 auto;
+
+            & .doctor_list {
+
+                & .doctor_name {
+
+                }
+            }
+        }
+    }
+}

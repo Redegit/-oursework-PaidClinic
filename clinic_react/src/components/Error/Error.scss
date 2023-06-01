@@ -1,0 +1,17 @@
+.error_container {
+    width: 90%;
+    padding: 200px 5%;
+    text-align: center;
+    height: 60%;
+
+    & .error_number {
+        font-size: 150px;
+        font-weight: 600;
+        color: var(--main-color);
+    }
+
+    & .error_info {
+        font-size: 22px;
+    }
+
+}

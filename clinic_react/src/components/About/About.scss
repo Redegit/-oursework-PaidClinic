@@ -1,0 +1,46 @@
+.container {
+
+    & .about_box {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 10%;
+        background-color: white;
+        border-radius: 10px;
+
+        & .itiabd_img {
+            flex: 1 1 30%;
+            background-image: url(../../../public/images/itiabd.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto;
+            border-radius: 10px;
+            background-size: cover;
+        }
+
+        & .text_container {
+            flex: 1 1 60%;
+
+            & .greetings {
+                font-weight: 500;
+                font-size: 20px;
+                width: 100%;
+                margin: 0;
+            }
+
+            & .text {
+                font-size: 18px;
+            }
+        }
+
+        & .media_links {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+org.clinic
+org.clinic.api
+org.clinic.entity
+org.clinic.repository
+org.clinic.security
+org.clinic.security.auth
+org.clinic.security.user

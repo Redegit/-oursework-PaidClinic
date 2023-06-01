@@ -1,0 +1,123 @@
+.description {
+    width: 90%;
+    margin: 20px 0 100px 0;
+    padding: 0 5%;
+    background-color: white;
+    border-radius: 20px;
+
+    & .description_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 1000px;
+        padding: 20px 0 0 0;
+        margin: 0 0 50px 0;
+
+        & .text {
+            font-size: 24px;
+            display: block;
+        }
+
+        & .left {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            height: 90%;
+            justify-content: space-between;
+            gap: 10px;
+
+            & .image_left {
+                max-height: 700px;
+                border-radius: 20px;
+                background-image: url(../../../images/Main/clinic_corridor.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 60vh;
+                width: auto;
+                box-shadow: 3px 2px 4px rgb(24 56 96 / 15%);
+            }
+        }
+
+        & .right {
+            width: calc(50% - 40px);
+            height: 90%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            color: #1e1e1e;
+            gap: 50px;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            & .heading {
+                font-size: 32px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                font-weight: bold;
+                color: var(--main-color);
+            }
+
+            & .image_right {
+                max-height: 700px;
+                border-radius: 20px;
+                background-image: url(../../../images/Main/corridor_landscape.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 35vh;
+                width: auto;
+                box-shadow: 3px 2px 4px rgb(24 56 96 / 15%);
+            }
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        .description_container {
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+
+            & .left {
+                flex-direction: column-reverse;
+                width: 90%;
+                gap: 20px;
+
+                & .image_left {
+                    width: 80vw;
+                    height: 40vh;
+                }
+            }
+
+            & .right {
+                width: 90%;
+                gap: 0;
+
+                & .image_right {
+                    width: 80vw;
+                    height: 40vh;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+
+        & .description_container {
+
+            & .text {
+                font-size: 14px;
+            }
+
+            & .right {
+
+                & .heading {
+                    font-size: 24px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

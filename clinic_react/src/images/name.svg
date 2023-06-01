@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.67 84.79">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #1a1a1a;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 78px;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <text class="cls-2" transform="translate(0 65.29)"><tspan class="cls-1" x="0" y="0">M</tspan><tspan x="63.18" y="0">edClinic</tspan></text>
+  </g>
+</svg>

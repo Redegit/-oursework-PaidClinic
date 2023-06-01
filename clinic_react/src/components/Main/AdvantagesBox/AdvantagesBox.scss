@@ -1,0 +1,193 @@
+.advantages_container {
+    padding: 50px 5%;
+    background-color: white;
+    position: relative;
+    width: 90%;
+    border-radius: 20px;
+
+    & .title {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    & .advantages_box {
+        padding: 20px;
+        border-radius: 20px;
+        width: calc(100% - 40px);
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        background-color: var(--background-color);
+        position: relative;
+
+
+        & .advantages_item {
+            display: flex;
+            flex-direction: row;
+            border-radius: 20px;
+            padding: 5px;
+            counter-increment: item;
+
+            & .advantages_left {
+                width: 45%;
+
+                & .left_title {
+                    position: relative;
+                    cursor: pointer;
+                    padding: 15px 5px 15px 50px;
+                    line-height: 22px;
+                    vertical-align: middle;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+
+                & .left_title::before {
+                    position: absolute;
+                    top: calc(50% - 11px);
+                    left: 10px;
+                    color: inherit;
+                    width: 20px;
+                    height: 22px;
+                    line-height: 22px;
+                    vertical-align: middle;
+                    text-align: right;
+                    font-weight: bold;
+                    font-size: 22px;
+                    margin: 0 20px 0 0;
+                    content: counter(item);
+                }
+            }
+
+            & .advantages_right {
+                position: absolute;
+                display: none;
+                top: 0;
+                left: 45%;
+                right: 0;
+                bottom: 0;
+                overflow: hidden;
+                border-radius: 20px;
+                padding: 40px 50px;
+                margin: 20px;
+                box-shadow: 3px 2px 4px rgba(24, 56, 96, 0.15);
+
+                & .advantages_title {
+                    position: relative;
+                    font-weight: bold;
+                    font-size: 36px;
+                    padding: 0 0 30px;
+                    margin: 0 0 30px;
+                    color: var(--main-color);
+                    // width: fit-content;
+                    word-wrap: break-word;
+                }
+
+                & .advantages_title::before {
+                    position: absolute;
+                    height: 1px;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background: rgba(0, 0, 0, 0.15);
+                    content: '';
+                }
+
+                & .advantages_text {
+                    font-size: 18px;
+                }
+            }
+
+
+
+        }
+
+
+
+        & .active {
+            background-color: white;
+            box-shadow: -3px 2px 4px rgba(24, 56, 96, 0.15);
+
+
+            & .advantages_right {
+                display: block;
+                background-color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .advantages_container {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        width: 100%;
+
+        & .title {
+            padding-left: 2.5%;
+            font-size: 20px;
+        }
+
+        & .advantages_box {
+            width: 95%;
+            padding: 0;
+
+
+            & .advantages_item {
+                flex-direction: column;
+
+                & .advantages_left {
+                    width: 100%;
+
+                    & .left_title {
+                    }
+
+                    & .left_title::before {
+                        font-size: 16px;
+                    }
+                }
+
+                & .advantages_right {
+                    position: relative;
+                    left: 0;
+                    border-radius: 20px;
+                    padding: 20px;
+                    border: 2px solid var(--main-color);
+                    box-shadow: none;
+                    margin: 0;
+
+                    & .advantages_title {
+                        font-size: 20px;
+                    }
+
+                    & .advantages_title::before {}
+
+                    & .advantages_text {
+                        font-size: 14px;
+                    }
+                }
+
+
+
+            }
+
+            & .advantages_item:hover {
+                background-color: rgb(223, 236, 255);
+            }
+
+
+
+            & .active {
+                background-color: rgb(223, 236, 255);
+                box-shadow: 0px 4px 10px 4px rgb(24 56 96 / 15%);
+
+
+                & .advantages_right {
+                    display: block;
+                }
+            }
+        }
+    }
+}
