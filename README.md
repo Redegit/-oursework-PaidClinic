@@ -13,24 +13,23 @@
 
 ### Структура проекта 
 
-
-<img style="max-height: 300px" src="img/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.png" alt="Структура проекта">
+![Структура проекта](img/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.webp)
 
 # Скриншоты
 
-<img style="max-height: 300px" src="img/site/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.png" alt="Главная">
+![Главная](img/site/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.webp)
 
-<img style="max-height: 300px" src="img/site/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8.png" alt="Услуги">
+![Услуги](img/site/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8.webp)
 
-<img style="max-height: 300px" src="img/site/%D0%9E%D0%B1%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B5.png" alt="Страница об авторе">
+![Страница об авторе](img/site/%D0%9E%D0%B1%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B5.webp)
 
-<img style="max-height: 300px" src="img/site/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82.png" alt="Личный кабинет">
+![Личный кабинет](img/site/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82.webp)
 
-<img style="max-height: 300px" src="img/site/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%BA%20%D0%B2%D1%80%D0%B0%D1%87%D1%83.gif" alt="Запись к врачу">
+![Запись к врачу](img/site/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%BA%20%D0%B2%D1%80%D0%B0%D1%87%D1%83.webp)
 
-<img style="max-height: 300px" src="img/site/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%BA%D0%B0.png" alt="Админка">
+![Админка](img/site/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%BA%D0%B0.webp)
 
-<img style="max-height: 300px" src="img/site/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8.png" alt="Графики">
+![Графики](img/site/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8.webp)
 
 # Запуск проекта
 
@@ -40,18 +39,18 @@
 2. Создать новую базу данных
 3. ПКМ по базе данных -> Restore... (Восстановть...)
 
-![Восстановление БД](./img/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%91%D0%94.png)
+![Восстановление БД](./img/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%91%D0%94.webp)
 
 4. В поле Filename выбрать файл database.backup и нажать Restore
 
-![Выбор пути к дампу БД](./img/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BF%D1%83%D1%82%D0%B8%20%D0%BA%20%D0%B4%D0%B0%D0%BC%D0%BF%D1%83%20%D0%91%D0%94.png)
+![Выбор пути к дампу БД](./img/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BF%D1%83%D1%82%D0%B8%20%D0%BA%20%D0%B4%D0%B0%D0%BC%D0%BF%D1%83%20%D0%91%D0%94.webp)
 
 ## Запуск сервера Spring
 
 1. Открыть папку проекта PaidClinic в Intellij IDEA или другой среде разработки
 2. В конфигурации aplication.properties прописать путь к базе данных и учетные данные
 
-![Конфигурация Spring](./img/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20Spring.png)
+![Конфигурация Spring](./img/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20Spring.webp)
 
 3. Установить необходимые зависимости при помощи maven
 4. Запустить PaidClinicMain
@@ -60,7 +59,7 @@
 
 1. Открыть файл clinic_react\src\index.js и в значение контекста прописать адрес запущенного сервера на Spring
 
-![КОнфигурация адреса сервера](./img/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0.png)
+![КОнфигурация адреса сервера](./img/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0.webp)
 
 2. В консоли (командной строке) перейти в папку с проектом clinic_react
 3. Выполнить команду `npm install` для установки всех необходимых локальных библиотек (необходим установленный node.js)
